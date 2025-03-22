@@ -58,8 +58,8 @@ Orpheus-FastAPI/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Lex-au/Orpheus-FastAPI.git
-cd Orpheus-FastAPI
+git clone https://github.com/TheLocalLab/Orpheus-FastAPI-LMStudio.git
+cd Orpheus-FastAPI-LMStudio
 ```
 
 2. Create a Python virtual environment:
