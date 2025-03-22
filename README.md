@@ -1,10 +1,10 @@
 ![Orpheus-FASTAPI Banner](https://lex-au.github.io/Orpheus-FastAPI/Banner.png)
 
-# Orpheus-FASTAPI
+# Orpheus-FASTAPI w/ LM Studio API
 
 [![GitHub](https://img.shields.io/github/license/Lex-au/Orpheus-FastAPI)](https://github.com/Lex-au/Orpheus-FastAPI/blob/main/LICENSE.txt)
 
-High-performance Text-to-Speech server with OpenAI-compatible API, 8 voices, emotion tags, and modern web UI. Optimized for RTX GPUs.
+High-performance Text-to-Speech server with OpenAI-compatible API, 8 voices, emotion tags, and modern web UI. Optimized for RTX GPUs with out of the box support with LM Studio API.
 
 [GitHub Repository](https://github.com/Lex-au/Orpheus-FastAPI)
 
