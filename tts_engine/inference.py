@@ -24,7 +24,7 @@ if torch.cuda.is_available():
         print("Enabling high-performance optimizations")
 
 # Orpheus-FASTAPI settings - make configurable for different endpoints
-API_URL = os.environ.get("ORPHEUS_API_URL", "http://your-server-ip:port/v1/completions or v1/chat/completions")
+API_URL = os.environ.get("ORPHEUS_API_URL", "http://127.0.0.1:1234/v1/completions")
 HEADERS = {
     "Content-Type": "application/json"
 }
@@ -33,7 +33,7 @@ HEADERS = {
 REQUEST_TIMEOUT = int(os.environ.get("ORPHEUS_API_TIMEOUT", "120"))  # 120 seconds default for long generations
 
 # Model parameters - optimized defaults for high-end GPUs
-MAX_TOKENS = 8192 if HIGH_END_GPU else 1200  # Significantly increased for RTX 4090 to allow ~1.5-2 minutes of audio
+MAX_TOKENS = 8192 if HIGH_END_GPU else 8192  # Significantly increased for RTX 4090 to allow ~1.5-2 minutes of audio
 TEMPERATURE = 0.6 
 TOP_P = 0.9
 REPETITION_PENALTY = 1.1
