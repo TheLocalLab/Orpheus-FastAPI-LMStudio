@@ -22,6 +22,7 @@ Listen to sample outputs with different voices and emotions:
 
 ## Features
 
+- **LM Studio Orpheus API Compatible**: Out of the Box support for the LM Studio Server API running the Orpheus-3b-0.1 model
 - **OpenAI API Compatible**: Drop-in replacement for OpenAI's `/v1/audio/speech` endpoint
 - **Modern Web Interface**: Clean, responsive UI with waveform visualization
 - **High Performance**: Optimized for RTX GPUs with parallel processing
@@ -107,6 +108,12 @@ Access:
 - API documentation: http://localhost:5005/docs (or http://127.0.0.1:5005/docs)
 
 ![API Documentation](https://lex-au.github.io/Orpheus-FastAPI/docs.png)
+
+### Start Up LM Studio API Server
+
+- Download and Install [LM Studio](https://lmstudio.ai/).
+- Download the Orpheus-3b-0.1-ft-Q4_K_M-GGUF model in the discover tab.
+- Select and load the model in the Developer Tab which should also start up the API server.
 
 ## API Usage
 
