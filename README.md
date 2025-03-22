@@ -112,8 +112,9 @@ Access:
 ### Start Up LM Studio API Server
 
 - Download and Install [LM Studio](https://lmstudio.ai/).
-- Download the Orpheus-3b-0.1-ft-Q4_K_M-GGUF model in the discover tab.
+- Download the Orpheus-3b-0.1-ft-Q4_K_M-GGUF model in the discover tab. ![LM Studio Orpheus Model](https://github.com/TheLocalLab/Orpheus-FastAPI-LMStudio/blob/8c9eb86b4c42a0ce60d8089c1b6a07d3635ae908/static/Lmstudio1.png)
 - Select and load the model in the Developer Tab which should also start up the API server.
+  ![LM Studio Server API](https://github.com/TheLocalLab/Orpheus-FastAPI-LMStudio/blob/8c9eb86b4c42a0ce60d8089c1b6a07d3635ae908/static/Lmstudio.png)
 
 ## API Usage
 
