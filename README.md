@@ -23,6 +23,7 @@ Listen to sample outputs with different voices and emotions:
 ## Features
 
 - **LM Studio Orpheus API Compatible**: Out of the Box support for the LM Studio Server API running the Orpheus-3b-0.1 model
+- **Default Max Token Lenght - 8192**
 - **OpenAI API Compatible**: Drop-in replacement for OpenAI's `/v1/audio/speech` endpoint
 - **Modern Web Interface**: Clean, responsive UI with waveform visualization
 - **High Performance**: Optimized for RTX GPUs with parallel processing
